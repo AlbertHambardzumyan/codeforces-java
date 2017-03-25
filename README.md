@@ -1,9 +1,9 @@
 # codeforces
 
-###Problems from codeforces.com
+Problems from codeforces.com
 
 
-####Learning Objectives: 
+Learning Objectives: 
 
     Gain experience with 
         (a) how to improve algorithmic problem-solving skills, 
