@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author Albert Hambardzumyan
  */
 public class Problem_1A {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt();
         int n = sc.nextInt();
