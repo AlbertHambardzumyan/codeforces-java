@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 /**
- * * Created by Alik on 11/9/2015.
+ * @author Albert Hambardzumyan
  */
 public class Problem_492B {
     public static void main(String[] args) {
