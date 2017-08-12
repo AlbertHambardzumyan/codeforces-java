@@ -2,6 +2,7 @@ package problem_766;
 
 import java.util.Scanner;
 
+
 /**
  * @author Albert Hambardzumyan
  */
