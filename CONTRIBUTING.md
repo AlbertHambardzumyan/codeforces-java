@@ -57,14 +57,14 @@ Use `git rebase` (not `git merge`) to synchronize your work with the main reposi
     $ git fetch upstream
     $ git rebase upstream/master
     
-### Step 6: Push
+### Step 5: Push
 
     $ git push origin my-branch
 
 Pull requests are usually reviewed within a few days.
 
 
-### Discuss and update
+### Step 6: Discuss and update
 
 You will probably get feedback or requests for changes to your Pull Request. This is a big part of the submission 
  process so don't be discouraged!
