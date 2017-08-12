@@ -9,7 +9,7 @@ Fork the project on [GitHub] and clone your fork locally.
 
     $ git clone git@github.com:username/codeforces.git
     $ cd codeforces
-    $ git remote add upstream https://github.com/AlbertHambardzumyan/codeforces
+    $ git remote add upstream https://github.com/AlbertHambardzumyan/codeforces.git
 
 [GitHub]: https://github.com/AlbertHambardzumyan/codeforces  
     
