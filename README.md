@@ -1,6 +1,6 @@
 # codeforces
 
-Problems from codeforces.com
+Solutions to the problems from codeforces.com
 
 
 Learning Objectives: 
