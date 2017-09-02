@@ -3,26 +3,26 @@
 This section will guide you through the contribution process.
 
 
-### Step 1: Fork
+### Step 1: Clone
 
 Fork the project on [GitHub] and clone your fork locally.
 
-    $ git clone git@github.com:username/codeforces.git
+    $ git clone https://github.com/AlbertHambardzumyan/codeforces.git
     $ cd codeforces
-    $ git remote add upstream https://github.com/AlbertHambardzumyan/codeforces.git
 
 [GitHub]: https://github.com/AlbertHambardzumyan/codeforces  
-    
-##### Which branch?
 
 For developing new features and bug fixes, the master branch should be pulled and built upon.
 
 
 ### Step 2: Branch
 
-    $ git checkout -b my-branch -t origin/master
+Create a new topic branch to contain your problem, change, or fix:
 
+    $ git checkout -b <topic-branch-name>
     
+Problem 38A - Army
+  
 ### Step 3: Commit
 
 Make sure git knows your name and email address:
@@ -49,17 +49,14 @@ b). Improving existing solution
     Problem 38A - Army:
      - Improvement in performance
      - Reformat code
-     
-### Step 4: Rebase
-
-Use `git rebase` (not `git merge`) to synchronize your work with the main repository.
-
-    $ git fetch upstream
-    $ git rebase upstream/master
     
-### Step 5: Push
+### Step 4: Push
 
-    $ git push origin my-branch
+    $ git push origin <topic-branch-name>
+
+### Step 5: Pull Request
+
+Open a Pull Request with a clear title and description.
 
 Pull requests are usually reviewed within a few days.
 
@@ -69,5 +66,5 @@ Pull requests are usually reviewed within a few days.
 You will probably get feedback or requests for changes to your Pull Request. This is a big part of the submission 
  process so don't be discouraged!
 
-To make changes to an existing Pull Request, make the changes to your branch. When you push that branch to your fork,
+To make changes to an existing Pull Request, make the changes to your branch. When you push to that branch,
  GitHub will automatically update the Pull Request.
